@@ -1,0 +1,26 @@
+.img_load{
+    filter:blur(7px);
+    -webkit-filter:blur(7px);
+    -moz-filter:blur(7px);
+    -o-filter:blur(7px);
+}
+img {
+    vertical-align: middle;
+    max-width:100%;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+	.blur-up {
+				-webkit-filter: blur(5px);
+				filter: blur(5px);
+				transition: filter 300ms, -webkit-filter 300ms;
+				}
+
+				.blur-up.lazyloaded {
+				-webkit-filter: blur(0);
+				filter: blur(0);
+				}
